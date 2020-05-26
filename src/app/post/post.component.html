@@ -1,0 +1,7 @@
+<h2>The Posts</h2>
+<div *ngFor="let post of posts; let i=index;">
+  <ul>
+    <li> {{posts[i].title}}</li>
+    <li>{{posts[i].body}}</li>
+  </ul>
+</div>

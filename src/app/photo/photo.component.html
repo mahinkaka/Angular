@@ -1,0 +1,16 @@
+<h2>The Photos</h2>
+<div *ngFor="let photo of photos; let i=index;">
+    <ul>
+        <li>
+            {{photos[i].title}}
+        </li>
+
+        <li>
+            {{photos[i].url}}
+        </li>
+
+        <li>
+            {{photos[i].thumbnailUrl}}
+        </li>
+    </ul>
+</div>

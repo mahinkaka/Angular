@@ -1,0 +1,8 @@
+<h2>The Comments</h2>
+<div *ngFor="let comment of comments; let i=index;">
+  <ul>
+    <li> {{comments[i].name}}</li>
+    <li> {{comments[i].email}}</li>
+    <li>{{comments[i].body}}</li>
+  </ul>
+</div>
